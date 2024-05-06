@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* regole container */
+
+.container {
+    margin: 0 15%;
+    padding: 20px 0;
+    height: 100%; 
+}
+
+/* regole header */
+
+header {
+    background-color: #ff6900;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 900;
+    box-shadow: 0 0 5px 5px grey;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-header {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row-header-sx {
+    justify-content: start;
+}
+.row-header-dx {
+    justify-content: end;
+}
+#logo-boolean {
+
+    width: 20%;
+}
+
+#logo-boolean img {
+    height: 19px;
+}
+
+/* regole main */
+
+main {
+    padding: 80px 0 20px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* regole inserzione */
+
+.inserzione {
+    width: calc(100% / 3 - 20px);
+    padding-bottom: 40px;
+    min-width: 200px;
+}
+
+/* regole immagine */
+
+.container-img {
+    position: relative;
+}
+
+.immagine-vestito {
+    width: 100%;
+}
+
+.immagine-vestito img {
+    width: 100%;
+}
+
+/* cambio immagine */
+
+#cambio-img1:hover {
+    content: url(../img/1b.webp);
+}
+
+#cambio-img2:hover {
+    content: url(../img/2b.webp);
+}
+
+#cambio-img3:hover {
+    content: url(../img/3b.webp);
+}
+
+#cambio-img4:hover {
+    content: url(../img/4b.webp);
+}
+
+#cambio-img5:hover {
+    content: url(../img/5b.webp);
+}
+
+#cambio-img6:hover {
+    content: url(../img/6b.webp);
+}
+
+
+/* regole cuore */
+
+.cuore {
+    position: absolute;
+    top: 2%;
+    right: 0;
+    width: 10%;
+    background-color: #fff;
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.cuore:hover {
+    color: red;
+}
+/* regole info prodotto */
+
+.info-prodotto {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    font-size: 14px;
+}
+
+.sconto {
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.sostenibilità {
+    background-color: green;
+    padding: 5px 10px;
+}
+
+/* regole descrizione */
+
+.brand {
+    font-size: 12px;
+}
+
+.nome-prodotto {
+    font-size: 16px;
+}
+
+.prezzo {
+    font-size: 12px;
+    color: red;
+    font-weight: 700;
+}
+
+.prezzo-pieno {
+    color: grey;
+    text-decoration: line-through;
+}
+
+/* regole footer */
+
+footer {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.row-footer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+footer h4 {
+    line-height: 2.5;
+}
+
+footer h4 a {
+    font-size: 22px;
+}
