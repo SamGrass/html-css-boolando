@@ -27,7 +27,7 @@ ul {
 header {
     background-color: #ff6900;
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: fixed;
     z-index: 900;
     box-shadow: 0 0 5px 5px grey;
@@ -39,12 +39,28 @@ header {
     align-items: center;
 }
 
+.row-header {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row-header-sx {
+    justify-content: start;
+}
+.row-header-dx {
+    justify-content: end;
+}
 #logo-boolean {
-    text-align: center;
+
+    width: 20%;
 }
 
 #logo-boolean img {
-    width: 25%;
+    height: 19px;
 }
 
 /* regole main */
