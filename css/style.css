@@ -80,9 +80,32 @@ main {
     width: 100%;
 }
 
+/* cambio immagine */
+
 #cambio-img1:hover {
     content: url(../img/1b.webp);
 }
+
+#cambio-img2:hover {
+    content: url(../img/2b.webp);
+}
+
+#cambio-img3:hover {
+    content: url(../img/3b.webp);
+}
+
+#cambio-img4:hover {
+    content: url(../img/4b.webp);
+}
+
+#cambio-img5:hover {
+    content: url(../img/5b.webp);
+}
+
+#cambio-img6:hover {
+    content: url(../img/6b.webp);
+}
+
 
 /* regole cuore */
 
