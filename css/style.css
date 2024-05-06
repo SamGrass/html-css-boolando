@@ -53,3 +53,89 @@ header {
     width: 25%;
 }
 
+/* regole main */
+
+main {
+    padding: 80px 0 20px;
+}
+/* regole inserzione */
+
+.inserzione {
+    width: calc(100% / 3 - 20px);
+    padding-bottom: 40px;
+    min-width: 200px;
+}
+
+/* regole immagine */
+
+.container-img {
+    position: relative;
+}
+
+.immagine-vestito {
+    width: 100%;
+}
+
+.immagine-vestito img {
+    width: 100%;
+}
+
+#cambio-img1:hover {
+    content: url(../img/1b.webp);
+}
+
+/* regole cuore */
+
+.cuore {
+    position: absolute;
+    top: 2%;
+    right: 0;
+    width: 10%;
+    background-color: #fff;
+    padding: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* regole info prodotto */
+
+.info-prodotto {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    font-size: 14px;
+}
+
+.sconto {
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.sostenibilità {
+    background-color: green;
+    padding: 5px 10px;
+}
+
+/* regole descrizione */
+
+.brand {
+    font-size: 12px;
+}
+
+.nome-prodotto {
+    font-size: 16px;
+}
+
+.prezzo {
+    font-size: 12px;
+    color: red;
+    font-weight: 700;
+}
+
+.prezzo-pieno {
+    color: grey;
+    text-decoration: line-through;
+}
