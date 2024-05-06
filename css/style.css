@@ -22,18 +22,6 @@ ul {
     height: 100%; 
 }
 
-.container-hd-ft {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
 /* regole header */
 
 header {
@@ -43,6 +31,12 @@ header {
     position: fixed;
     z-index: 900;
     box-shadow: 0 0 5px 5px grey;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo-boolean {
@@ -58,6 +52,14 @@ header {
 main {
     padding: 80px 0 20px;
 }
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* regole inserzione */
 
 .inserzione {
@@ -161,4 +163,37 @@ main {
 .prezzo-pieno {
     color: grey;
     text-decoration: line-through;
+}
+
+/* regole footer */
+
+footer {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.row-footer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+footer h4 {
+    line-height: 2.5;
+}
+
+footer h4 a {
+    font-size: 22px;
 }
